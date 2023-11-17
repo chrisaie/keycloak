@@ -32,4 +32,4 @@ USER keycloak
 
 RUN /opt/keycloak/bin/kc.sh show-config
 
-ENTRYPOINT ["/opt/keycloak/bin/kc.sh"]
+ENTRYPOINT ["/opt/keycloak/bin/kc.sh", "start"]
